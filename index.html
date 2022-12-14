@@ -20,6 +20,7 @@
         background-repeat: no-repeat;
         background-size: 1400px auto;
     }
+
     .left {
         position: absolute;
         top: 20px;
@@ -89,34 +90,46 @@
         cursor: pointer;
         font-family: 'Noto Sans', sans-serif;
     }
-    .btn:hover {
-        background-color: rgb(244, 188, 188)
+
+    .btn a {
+        text-decoration: none;
+        color: white;
     }
-    .container{
+
+    .btn:hover {
+        background-color: rgb(244, 188, 188);
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .container {
         display: inline-block;
         position: absolute;
-        right:32px;
-        border: 2px solid white;    
+        right: 32px;
+        border: 2px solid white;
         margin: 57px 38px;
         padding: 25px 50px;
-        width:33%;
+        width: 33%;
         border-radius: 20px;
     }
-    .form input{
+
+    .form input {
         text-align: center;
         display: block;
         margin: 5px auto;
         padding: 6px 25px;
-        width: 230px;    
+        width: 230px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
         font-size: 15px;
         font-family: 'Noto Sans', sans-serif;
     }
-    .container h1{
+
+    .container h1 {
         text-align: center;
     }
-    .container button{
+
+    .container button {
         display: block;
         width: 63%;
         margin: 20px auto;
@@ -130,7 +143,7 @@
             <img src="img/logo.png" alt="Images">
             <div>Fitness Gym</div>
         </div>
-        <!-- middle for navbar -->
+        <!-- middle for  navbar -->
         <div class="middle">
             <ul class="navbar">
                 <li><a href="#">Home</a></li>
@@ -141,8 +154,8 @@
         </div>
         <!-- right box for buttons -->
         <div class="right">
-            <button class="btn">Facebook</button>
-            <button class="btn">Intagram</button>
+            <button class="btn"><a href="https://www.facebook.com/" target="_blank">Facebook</a></button>
+            <button class="btn"><a href="https://www.instagram.com" target="_blank">Instagram</a></button>
         </div>
     </hearder>
     <div class="container">
